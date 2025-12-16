@@ -95,7 +95,12 @@ export default function Navbar() {
                         </Link>
 
                         <Heart className="w-5 h-5 cursor-pointer hover:text-red-300 transition" />
-                        <ShoppingCart className="w-5 h-5 cursor-pointer hover:text-yellow-300 transition" />
+                         <Link
+                            href="/cart"
+                            className="hover:text-purple-300 transition focus:outline-none"
+                        >
+                            <ShoppingCart className="w-5 h-5 cursor-pointer" />
+                        </Link>
                         <LogIn className="w-5 h-5 cursor-pointer hover:text-green-300 transition" />
                     </div>
 
