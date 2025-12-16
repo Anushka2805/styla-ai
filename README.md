@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ styla.ai – AI-Powered Omnichannel Retail Experience
 
-## Getting Started
+styla.ai is an AI-driven omnichannel retail experience designed to transform how customers discover, evaluate, and purchase fashion products across digital and physical touchpoints.
 
-First, run the development server:
+The platform demonstrates how a **conversational sales assistant** can guide users through product discovery, in-store availability, reservation, checkout, and post-purchase support — all within a single, seamless journey.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project focuses on **experience design, system flow, and agent orchestration**, showcasing how modern retail interactions can feel intuitive, personalized, and human-like.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🤖 **Conversational Shopping Assistant**
+  - Natural chat-based interaction
+  - Understands shopping intent (e.g., “Show me white tops”)
+  - Guides users step-by-step through the buying journey
 
-## Learn More
+- 👗 **Product Discovery & Recommendations**
+  - Product listing and detailed views
+  - Personalized product suggestions
+  - Complete-look and cross-sell recommendations
 
-To learn more about Next.js, take a look at the following resources:
+- 🏬 **Store Availability Check**
+  - Store-wise size availability
+  - Visual stock indicators for quick decision-making
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📦 **Try-On Reservation**
+  - Reserve products for in-store trial
+  - Reservation confirmation with QR code
+  - Time-bound booking experience
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔁 **Omnichannel Continuity**
+  - Seamless transition from web to in-store kiosk
+  - Ongoing shopping session continues across channels
 
-## Deploy on Vercel
+- 💳 **Checkout & Order Flow**
+  - Cart and checkout experience
+  - Offers and loyalty benefits
+  - Order confirmation and pickup details
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ⭐ **Post-Purchase Experience**
+  - Order summary and tracking
+  - Feedback and rating
+  - Return and exchange support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 Agent-Oriented Design
+
+styla.ai follows an **agent-oriented architecture**, where a central sales agent coordinates multiple specialized agents to handle different parts of the customer journey:
+
+- **Sales Agent** – Manages the overall conversation and flow  
+- **Recommendation Agent** – Suggests relevant products  
+- **Inventory Agent** – Handles store availability checks  
+- **Fulfillment Agent** – Manages reservations and pickup flow  
+- **Payment Agent** – Oversees checkout interactions  
+- **Post-Purchase Agent** – Supports feedback and returns  
+
+This modular approach enables scalability and seamless orchestration across channels.
+
+---
+
+## Demo User Journey  
+
+1. User lands on the Home page  
+2. Starts a conversation with the AI assistant  
+3. Discovers products through chat  
+4. Views product details and recommendations  
+5. Checks in-store availability  
+6. Reserves item for try-on  
+7. Continues session on in-store kiosk  
+8. Completes checkout  
+9. Receives order confirmation and shares feedback  
+
+
+
